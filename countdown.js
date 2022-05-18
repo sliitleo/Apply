@@ -1,5 +1,5 @@
 //Deadline Date 
- var countDownDate = new Date("Jun 5, 2022 16:37:52").getTime();
+ var countDownDate = new Date("Jun 5, 2021 23:59:59").getTime();
 
 
  var myfunc = setInterval(function() {
@@ -26,6 +26,14 @@
      document.getElementById("hours").innerHTML = "" 
      document.getElementById("mins").innerHTML = ""
      document.getElementById("secs").innerHTML = ""
-     document.getElementById("end").innerHTML = "TIME UP!!";
+     document.getElementById("apl").style.display = "none";
+    
+     
+     document.getElementById("end").innerHTML = "Applications are <b>now closed!</b>";
+
+     document.getElementById("form").style.display = "none";
+     document.getElementById("formt").style.display = "none";
+     document.getElementById("formth").style.display = "none";
+     document.getElementById("formtht").style.display = "none";
  }
  }, 1000);
