@@ -1,5 +1,5 @@
 //Deadline Date 
- var countDownDate = new Date("Jun 5, 2021 23:59:59").getTime();
+ var countDownDate = new Date("Jun 5, 2022 23:59:59").getTime();
 
 
  var myfunc = setInterval(function() {
