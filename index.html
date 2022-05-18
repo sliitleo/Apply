@@ -47,9 +47,10 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script src="links.js">
+<script src="links.js"></script>
+<script src="countdown.js"></script>
     
-</script>
+
 
 
 </head>
@@ -108,7 +109,31 @@
         </div>
       </div>
 
-
+      <div class="-mt-10 mb-20 " x-data="beer()" x-init="start()">
+        <div class="">
+            
+            <div class="grid grid-cols-4 max-w-3xl md:text-7xl text-3xl block ml-auto mr-auto">
+  
+                <div class=" bg-white text-red-500 pb-4 pt-4 rounded-lg ml-2 mr-2">
+                    <div class="font-mono leading-none text-center"  x-text="days" id="days">&nbsp;</div>
+                    <div class="font-mono uppercase md:text-xl text-base text-center font-bold leading-none">Days</div>
+                </div>
+                <div class="bg-white text-red-500 pb-4 pt-4 rounded-lg ml-2 mr-2">
+                    <div class="font-mono leading-none text-center" x-text="hours" id="hours">&nbsp;</div>
+                    <div class="font-mono uppercase md:text-xl text-base text-center font-bold leading-none">Hours</div>
+                </div>
+                <div class="bg-white text-red-500 pb-4 pt-4 rounded-lg ml-2 mr-2">
+                    <div class="font-mono leading-none text-center" x-text="minutes" id="mins">&nbsp;</div>
+                    <div class="font-mono uppercase md:text-xl text-base text-center font-bold leading-none">Minutes</div>
+                </div>
+                <div class="bg-white text-red-500 pb-4 pt-4 rounded-lg ml-2 mr-2">
+                    <div class="font-mono leading-none text-center" x-text="minutes" id="secs">&nbsp;</div>
+                    <div class="font-mono uppercase md:text-xl text-base text-center font-bold leading-none">Seconds</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
       <h3 data-aos="fade-left" data-aos-duration="500" id="" class="text-4xl font-extrabold leading-none text-center capitalize -mt-10">Avialable <span class="text-red-00"> Applications</span> </h3>
       <h3 data-aos="fade-right" data-aos-duration="500" class="text-2xl font-bold leading-none text-center capitalize bg-red-600 max-w-sm block ml-auto mr-auto text-white mt-2">EXECUTIVE COMMITTEE 22.23</span> </h3>
 
@@ -180,7 +205,7 @@
 
 </div>
 
-<div  id="department" class="mt-5"></div>
+<div  id="department" class="mt-5">
 
 <h3 data-aos="fade-up" data-aos-duration="500" id="" class="text-2xl font-bold leading-none text-center capitalize bg-red-600 max-w-xs block ml-auto mr-auto text-white mt-2">DEPARTMENT 22.23</span> </h3>
 
@@ -231,6 +256,8 @@
         <!-- Component End  -->
     
       </div>
+</div>
+
 </div>
       <footer class="pb-10 mt-10">
           <div class="text-center">
