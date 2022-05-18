@@ -29,7 +29,7 @@
      document.getElementById("apl").style.display = "none";
     
      
-     document.getElementById("end").innerHTML = "Applications are <b>now closed!</b>";
+     document.getElementById("end").innerHTML = "Applications <b> closed!</b>";
 
      document.getElementById("form").style.display = "none";
      document.getElementById("formt").style.display = "none";
