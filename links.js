@@ -2,12 +2,12 @@ var president = 'https://docs.google.com/forms/d/e/1FAIpQLSciV3hXaJCcMQOImJwdQmH
 var vp = 'https://docs.google.com/forms/d/e/1FAIpQLSdyfD41Mefg_7nyLOe_jIa475gecfX0wZtIisrAzaLE5jzDVA/viewform?usp=sf_link';
 var secretary = 'https://docs.google.com/forms/d/e/1FAIpQLSerM_q7bz8WRjLM-UevTbn7TWPqEFMiOQIrf3Eju5nTuJst9g/viewform?usp=sf_link';
 var treasurer = 'https://docs.google.com/forms/d/e/1FAIpQLSfgw77dRKUg-pcTtRFKoLc9cuLUYWL7zQyz5E8FSi032C5d8g/viewform?usp=sf_linky';
-
+var exco = 'https://docs.google.com/forms/d/e/1FAIpQLSf2Uz4uFhm01tfdiIn52fts_onA0WW9he8tUV8Ao64ZU5SiVw/viewform?usp=sf_link';
 /**
 
 
 
-var exco = 'https://docs.google.com/forms/d/e/1FAIpQLSf2Uz4uFhm01tfdiIn52fts_onA0WW9he8tUV8Ao64ZU5SiVw/viewform?usp=sf_link';
+
 var specialc = 'https://docs.google.com/forms/d/e/1FAIpQLSee-tNPlo3VXvrmgEZ1RCYhC6m8ZZz5elKBYWEZHsgyI6aIkA/viewform?usp=sf_link';
 
 var designer ="https://docs.google.com/forms/d/e/1FAIpQLScud0IOL8Q_Z4-GhM-iMb2XkQemDXHjXW7iC2EZUY8InhS5qQ/viewform?usp=sf_link";
