@@ -8,8 +8,8 @@ var specialc = 'https://docs.google.com/forms/d/e/1FAIpQLSee-tNPlo3VXvrmgEZ1RCYh
 
 
 var designer ="https://docs.google.com/forms/d/e/1FAIpQLScud0IOL8Q_Z4-GhM-iMb2XkQemDXHjXW7iC2EZUY8InhS5qQ/viewform?usp=sf_link";
-
 var photographer ="https://docs.google.com/forms/d/e/1FAIpQLSeKjJpQyIYm4xpUrTzsJW8RY0bvhEGVco5l1G3SluSISKM1mw/viewform?usp=sf_link";
+var content ="https://docs.google.com/forms/d/e/1FAIpQLSfJYXApMN9bewyoZ1QMgT7XAhVqpszQR_Zn0yu2uy6qhuwpQw/viewform?usp=sf_link";
 
 /**
 
@@ -21,7 +21,7 @@ var photographer ="https://docs.google.com/forms/d/e/1FAIpQLSeKjJpQyIYm4xpUrTzsJ
 
 
 
-var content ="https://docs.google.com/forms/d/e/1FAIpQLSfJYXApMN9bewyoZ1QMgT7XAhVqpszQR_Zn0yu2uy6qhuwpQw/viewform?usp=sf_link";
+
 var presenter ="https://docs.google.com/forms/d/e/1FAIpQLSe9dCfPBcQJe9PUR3LJB-VXNKBFhEzRSry1fEM6FJtEET2OzA/viewform?usp=sf_link";
 
  */
