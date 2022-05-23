@@ -22,6 +22,10 @@
  // Display the message when countdown is over
  if (timeleft < 0) {
      clearInterval(myfunc);
+
+     
+
+
      document.getElementById("days").innerHTML = ""
      document.getElementById("hours").innerHTML = "" 
      document.getElementById("mins").innerHTML = ""
@@ -29,11 +33,25 @@
      document.getElementById("apl").style.display = "none";
     
      
+
+     document.getElementById("btnapt").classList.add('hidden');
+     document.getElementById("btnaptt").classList.add('hidden');
+
      document.getElementById("end").innerHTML = "Applications <b> closed!</b>";
+     document.getElementById("end").classList.add('p-2');
+     document.getElementById("end").classList.add('md:mt-56');
+     document.getElementById("end").classList.add('md:mb-16');
+     document.getElementById("end").classList.add('-mb-16');
 
      document.getElementById("form").style.display = "none";
      document.getElementById("formt").style.display = "none";
      document.getElementById("formth").style.display = "none";
      document.getElementById("formtht").style.display = "none";
+
+
+     
+     
  }
- }, 1000);
+
+ 
+ }, 0);
